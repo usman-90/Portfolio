@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="pprsec1">
+      <div class="navv">
+        <nav class="navbar navbar-expand-lg bg">
+          <div class="container my-2 container-fluid">
+            <a class="navbar-brand fs-3" href="#">Noman.</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-li-bg mx-4 nav-item">
+                  <a
+                    class="a-hover nav-link "
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="mx-3 nav-li-bg nav-item">
+                  <a class="nav-link a-hover text-dark" href="index.html#aboutus"
+                    >About us</a
+                  >
+                </li>
+
+                <li class="mx-3 nav-item nav-li-bg activee">
+                  <a class="nav-link a-hover text-light" href="#research"
+                    >Reasearch</a
+                  >
+                </li>
+                <li class="mx-3 nav-item nav-li-bg">
+                  <a
+                    class="nav-link text-dark a-hover"
+                    aria-current="page"
+                    href="index.html#contact"
+                    >Contact</a
+                  >
+                </li>
+                <li class="mx-3 nav-item nav-li-bg">
+                  <a
+                    id="log"
+                    onclick="loginout()"
+                    class="nav-link text-dark a-hover"
+                    href="#"
+                    >Login</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="cover w-100 h-50">
+          <img
+            id="coverimg"
+            class="coverimg w-100"
+            height="100px"
+            src=""
+            alt="Cover Image"
+          />
+        </div>
+        <div class="row">
+          <div class="col-md-8"><div class="container my-4" id="article">
+            <!-- content -->
+            
+          </div></div>
+          <div class="col-md-4">
+            <div class="container my-4 border box-shadow border-light py-4 ">
+                <h1 class="color fw-bold fs-5 myborder  w-25  py-1">Author</h1>
+                <div class="author d-flex align-items-center my-3 justify-content-start">
+                    <img class="rounded-circle px-2 w-25" src="https://scontent.fkhi22-1.fna.fbcdn.net/v/t1.6435-9/80251953_169511864134259_1515933089652539392_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_eui2=AeE5nfWd_9gVnqcGgtMi4fF-rbnmARx-vvStueYBHH6-9CVoRVKt5PhxglwZZ-xo7chW1C0z9o-UfOEOLdYNIuW1&_nc_ohc=YL284rLs4I0AX8kHGZt&_nc_ht=scontent.fkhi22-1.fna&oh=00_AfC5nBUmBrt7TojOkgxpM5WlN07KxUWOSOMrEYRQUupfew&oe=639CD230" alt="">
+                    <p class="fw-bold fs-5 px-2">Hello I'm Noman.</p>
+                </div>
+                <div class="my-2">
+                    <p class="subhead">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores</p>
+                </div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+  <!-- start of footer -->
+
+  <footer class="mt-5">
+    <div class="bg-dark">
+     <div class="container py-1 d-flex justify-content-between flex-wrap">
+      <div class="leftside pt-2"><i class="mx-2 text-light fa-brands fa-facebook"></i><i class="text-light fa-brands mx-2 fa-twitter text-light "></i><i class="mx-2 text-light fa-brands fa-instagram"></i></div>
+      <div class="rightside pt-2"><p class="text-light">© 2022 copyright all right reserved</p></div>
+     </div>
+    </div>
+  </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="ppr.js" type="module"></script>
+   
+  </body>
+</html>

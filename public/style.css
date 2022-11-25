@@ -1,0 +1,165 @@
+.nav-li-bg {
+    border-radius: 4rem;
+    transition: ease all 0.35s;
+    padding: 0rem 0rem;
+}
+*{
+    box-sizing: border-box;
+}
+.bg{
+    color: transparent !important;
+}
+.nav-li-bg:hover{
+    background-color: #f9564f;
+    color: white;
+}
+.a-hover{
+    padding: 0.4rem 1.1rem !important; 
+}
+.a-hover:hover{
+    color: white !important;
+}
+.activee{
+    background-color: #f9564f;
+    color: white !important;
+    border-radius: 4rem;
+}
+.navv{
+    font-weight: bolder;
+}
+.back{
+    /* background-image: url('https://img.freepik.com/free-vector/white-background-with-3d-hexagonal-pattern-design_1017-28443.jpg?w=1480&t=st=1666385821~exp=1666386421~hmac=64ae6f3fc80e22e69bcb053c4fb7c6a2a069c7f3a7f66f7eb34ae59804ab3d1a'); */
+    /* height: 100vh; */
+    padding-bottom: 4rem;
+    background-repeat: no-repeat;
+}
+.dp{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 11rem
+}
+.hi{
+    font-weight: bolder;
+    color: #f9564f;
+    font-size:2.4rem;
+}
+.name{
+    font-weight: bolder;
+    color: black;
+    font-size: 2.5rem;
+}
+.typewriter{
+    font-weight: bolder;
+    color: #f9564f;
+    font-size: 24px;
+}
+@media screen and (max-width: 500px) {
+    .name{
+        font-size: 2rem;
+    }
+    .hi{
+        font-size:1.2rem;
+    }
+    .typewriter{
+        font-size: 1rem;
+    }
+    .my-5 {
+        margin-top: 0rem!important;
+    }
+}
+
+.subhead{
+    color: grey;
+    font-weight: normal;
+    font-size:1.2rem ;
+}
+.box{
+    margin: 0.5rem;
+    background-color: white;
+    padding: 0.4rem 1.5rem;
+    transition: ease all 0.35s;
+    /* box-shadow: 0px 0px 10px grey;  */
+}
+.box:hover{
+    box-shadow: -10px 10px 0px #f9564f;
+}
+
+.iconspan{
+   font-size: 2rem;
+   background-color: #f9564f;
+   color: white;
+   display: inline-block;
+   width: 5rem;
+   height: 5rem;
+   border-radius: 6rem; 
+   text-align: center;
+   vertical-align: center;
+}
+.display{
+    display: block !important;
+}
+.feedbackbox {
+    /* padding: 1rem; */
+    box-shadow: -10px 10px 0px white;
+    background-color: white;
+}
+.commentbox{
+    height: 10rem;
+    width: 18rem;
+    border: 1px solid lightgrey;
+}
+.commentbox:active , .commentbox:focus{
+    outline: none;
+}
+.form{
+    border: 1px solid lightgrey;
+    
+}
+.mybtn{
+    background-color: #f9564f !important;
+    color: white !important;
+}
+.mybtn:hover{
+    background-color: white !important;
+    color: #f9564f !important;
+    border: 1px solid #f9564f !important;
+}
+.fs-10{
+    font-size: 1rem;
+}
+.color{
+    color: #f9564f;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+.typewriter{
+    overflow: hidden;
+    border-right: .15em solid #f9564f;
+    padding : 0 5px 0 0 ;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 3s steps(20, end) forwards,
+      blink .8s infinite;
+}
+
+.secondsec,.third {
+    background-color: #f9e7e7;
+}
+.coverimg{
+    height: 20rem;
+}
+.myborder{
+  
+    border-bottom: 2px solid #f9564f;
+}
+.box-shadow{
+    box-shadow: 0px 0px 5px grey;
+}

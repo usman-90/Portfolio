@@ -1,0 +1,18 @@
+.showarticlediv{
+    display: none;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-y:auto;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    width: 100%;
+}
+.myclosebtn{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 2;
+}
